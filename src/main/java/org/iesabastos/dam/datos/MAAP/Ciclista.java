@@ -3,6 +3,8 @@ package org.iesabastos.dam.datos.MAAP;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
+
 @Entity
 @Table(name="ciclista")
 public class Ciclista implements Serializable {
@@ -16,6 +18,9 @@ public class Ciclista implements Serializable {
     @ManyToOne(cascade = CascadeType.DETACH)
     @JoinColumn(name = "nomeq")
     private Equipo equipo;
+
+    @OneToMany(mappedBy = "netapa", cascade = CascadeType.DETACH)
+    private List<Etapa> etapa;
 
     public Ciclista() {
     }
@@ -50,5 +55,13 @@ public class Ciclista implements Serializable {
 
     public void setEquipo(Equipo equipo) {
         this.equipo = equipo;
+    }
+
+    public List<Etapa> getEtapa() {
+        return etapa;
+    }
+
+    public void setEtapa(List<Etapa> etapa) {
+        this.etapa = etapa;
     }
 }
