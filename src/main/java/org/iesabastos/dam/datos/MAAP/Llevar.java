@@ -1,4 +1,6 @@
-package org.iesabastos.ciclismo;
+package org.iesabastos.dam.datos.MAAP;
 
-public class Llevar {
+import java.io.Serializable;
+
+public class Llevar implements Serializable {
 }

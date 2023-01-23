@@ -1,4 +1,4 @@
-package org.iesabastos.ciclismo;// Indicar el nombre del paquete correctamente
+package org.iesabastos.dam.datos.MAAP;// Indicar el nombre del paquete correctamente
 
 
 import org.hibernate.Session;

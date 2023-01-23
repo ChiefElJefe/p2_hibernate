@@ -6,7 +6,7 @@
     <hibernate-configuration>
         <session-factory>
             <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-            <property name="hibernate.connection.url">jdbc:mysql://localhost/pedidosfab</property>
+            <property name="hibernate.connection.url">jdbc:mysql://localhost/ciclismo</property>
             <!--  Cambiar basededatos por nombre de la base de datos  -->
             <property name="hibernate.connection.username">root</property>
             <!--  Nombre de usuario de la base de datos  -->
@@ -16,9 +16,16 @@
             <property name="hibernate.show_sql">true</property>
             <!--  Se registran las clases que hay que mapear con cada tabla de la base de datos. Ejemplo:   -->
             <!--  <mapping class="com.example.Construcciones"/> -->
-            <mapping class="org.iesabatos.dam.fabricacion.Fabrica"/>
-            <mapping class="org.iesabatos.dam.fabricacion.Pedido"/>
-            <mapping class="org.iesabatos.dam.fabricacion.Articulo"/>
+            <mapping class="org.iesabastos.dam.datos.MAAP.Ciclista"/>
+            <mapping class="org.iesabastos.dam.datos.MAAP.Coche"/>
+            <mapping class="org.iesabastos.dam.datos.MAAP.Equipo"/>
+            <mapping class="org.iesabastos.dam.datos.MAAP.Etapa"/>
+            <mapping class="org.iesabastos.dam.datos.MAAP.Gana"/>
+            <mapping class="org.iesabastos.dam.datos.MAAP.Llevar"/>
+            <mapping class="org.iesabastos.dam.datos.MAAP.Maillot"/>
+            <mapping class="org.iesabastos.dam.datos.MAAP.Premio"/>
+            <mapping class="org.iesabastos.dam.datos.MAAP.Puerto"/>
+            <mapping class="org.iesabastos.dam.datos.MAAP.Representante"/>
             <!--  Fin registro de clases mapeadas  -->
         </session-factory>
     </hibernate-configuration>
