@@ -2,6 +2,7 @@ package org.iesabastos.dam.datos.MAAP;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.List;
 
 @Entity
 @Table(name = "etapa")
@@ -17,6 +18,8 @@ public class Etapa implements Serializable {
     @ManyToOne(cascade = CascadeType.DETACH)
     @JoinColumn(name = "dorsal")
     private Ciclista ciclista;
+    @OneToMany(mappedBy = "etapa", cascade = CascadeType.DETACH)
+    private List<Puerto> puerto;
 
     public Etapa() {
     }

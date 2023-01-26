@@ -22,6 +22,9 @@ public class Ciclista implements Serializable {
     @OneToMany(mappedBy = "ciclista", cascade = CascadeType.DETACH)
     private List<Etapa> etapa;
 
+    @OneToMany(mappedBy = "ciclista", cascade = CascadeType.DETACH)
+    private List<Puerto> puerto;
+
     public Ciclista() {
     }
 
