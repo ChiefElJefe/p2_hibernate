@@ -19,7 +19,7 @@ public class Ciclista implements Serializable {
     @JoinColumn(name = "nomeq")
     private Equipo equipo;
 
-    @OneToMany(mappedBy = "netapa", cascade = CascadeType.DETACH)
+    @OneToMany(mappedBy = "ciclista", cascade = CascadeType.DETACH)
     private List<Etapa> etapa;
 
     public Ciclista() {

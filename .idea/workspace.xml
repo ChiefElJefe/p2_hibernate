@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d1f939-ba31-47eb-b3f0-8eacee337b9a" name="Changes" comment="Second">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/dam/datos/MAAP/_01c01GanadorDeEtapa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/dam/datos/MAAP/_01c02EtapasGanadasPorCiclista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/dam/datos/MAAP/_01b03EtapasGanadasPorEquipo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/iesabastos/dam/datos/MAAP/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/dam/datos/MAAP/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/iesabastos/dam/datos/MAAP/Ciclista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/dam/datos/MAAP/Ciclista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesabastos/dam/datos/MAAP/Etapa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/dam/datos/MAAP/Etapa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesabastos/dam/datos/MAAP/_01c02EtapasGanadasPorCiclista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/dam/datos/MAAP/_01c02EtapasGanadasPorCiclista.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/7N/Desktop/p2_hibernate/src/main/java/org/iesabastos/dam/datos/MAAP"
+    "last_opened_file_path": "C:/Users/7N/Desktop/Ejemplo"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -74,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674497473619</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second">
+      <created>1674499964936</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674499964936</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
