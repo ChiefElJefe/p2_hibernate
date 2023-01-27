@@ -67,4 +67,12 @@ public class Ciclista implements Serializable {
     public void setEtapa(List<Etapa> etapa) {
         this.etapa = etapa;
     }
+
+    public List<Puerto> getPuerto() {
+        return puerto;
+    }
+
+    public void setPuerto(List<Puerto> puerto) {
+        this.puerto = puerto;
+    }
 }

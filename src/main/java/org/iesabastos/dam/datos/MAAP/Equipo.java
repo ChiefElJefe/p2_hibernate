@@ -40,4 +40,6 @@ public class Equipo implements Serializable {
     public void setCiclista(List<Ciclista> ciclista) {
         this.ciclista = ciclista;
     }
+
+
 }
