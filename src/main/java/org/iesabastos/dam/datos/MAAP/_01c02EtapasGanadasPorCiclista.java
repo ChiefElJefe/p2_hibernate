@@ -7,7 +7,6 @@ public class _01c02EtapasGanadasPorCiclista {
     public _01c02EtapasGanadasPorCiclista(short id) {
         HibernateUtil.buildSessionFactory();
         HibernateUtil.openSession();
-
         Session sesion = HibernateUtil.getCurrentSession();
         sesion.beginTransaction();
         Ciclista ciclista = (Ciclista) sesion.get(Ciclista.class, id);
