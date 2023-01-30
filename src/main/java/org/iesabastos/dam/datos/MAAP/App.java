@@ -21,7 +21,13 @@ public class App
         //_02bModificarEquipo a = new _02bModificarEquipo("Kingdom Hearts", "Ivan Cazuelas");
         //_02cCambiarDeEquipo a = new _02cCambiarDeEquipo((short) 1, "Amore Vita");
         //_02dCrearCiclista a = new _02dCrearCiclista((short) 31, "Ivan Jimenez", "28-09-1963", "Amore Vita");
-        _03EliminarEquipo a = new _03EliminarEquipo("Carrera");
+        //_03EliminarEquipo a = new _03EliminarEquipo("Carrera");
+        //_04EliminarEquipoYCambiarCiclistas a = new _04EliminarEquipoYCambiarCiclistas("Kingdom Hearts", "Amore Vita");
+        //_05HQLBasicas a = new _05HQLBasicas();
+        //_05HQLBasicas a = new _05HQLBasicas(1);
+        //_05HQLBasicas a = new _05HQLBasicas((long)1);
+        //_06HQLVariasTablas a = new _06HQLVariasTablas();
+        //_06HQLVariasTablas a = new _06HQLVariasTablas(1);
 
     }
 }

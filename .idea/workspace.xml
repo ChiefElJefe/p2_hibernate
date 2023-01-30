@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d1f939-ba31-47eb-b3f0-8eacee337b9a" name="Changes" comment="Second" />
+    <list default="true" id="22d1f939-ba31-47eb-b3f0-8eacee337b9a" name="Changes" comment="Second">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/dam/datos/MAAP/_04EliminarEquipoYCambiarCiclistas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/dam/datos/MAAP/_05HQLBasicas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/dam/datos/MAAP/_06HQLVariasTablas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesabastos/dam/datos/MAAP/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/dam/datos/MAAP/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesabastos/dam/datos/MAAP/Ciclista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesabastos/dam/datos/MAAP/Ciclista.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674837767222</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Second">
+      <created>1674843891259</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674843891259</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
